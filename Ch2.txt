@@ -1,0 +1,92 @@
+Syntax:
+
+Selector
+{
+	property:value;
+	property:value;
+	.
+	.
+	.
+  	property:value;
+	
+}
+ p
+{
+	color:blue;
+	text_design:Center;
+}
+
+Selector types
+Element
+id
+class
+attribute
+universal 
+dcendant
+child
+Grouping
+
+Text properties
+color
+text-align(left right center)
+text-indent
+text-transform(capitalize upper lower)
+text-decoration (none,underline,overline,line-through)
+text-spacing
+letter-spacing
+word-spacing
+line-height
+text-shadow
+
+Font properties
+font-family
+font-variant
+font-size
+font-weight
+
+border properties
+border-size
+border-width
+border-color
+border-style
+border-top
+border-left
+border-right
+border-radius
+
+background properties
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attachment (scroll&fixed)
+background-clip
+
+box properties
+content
+padding
+border
+margin
+
+pseudo class:
+hover
+active
+focus
+link
+not
+
+flex properties
+display:flex
+justify:content ->> flex-start flex-end space-evenly space-around space-between
+align-text->> flex-start flex-end center
+flex-wrap->> nowrap
+gap
+order
+flex
+
+
+css positioning
+postion:static reletive fixed sticky
+top right bottom left
+z-index

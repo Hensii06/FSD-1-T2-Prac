@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Types of css</title>
+<style>
+<!--- id --->
+#surf
+{
+color:pink; text-align:center
+}
+<!--- class --->
+.A
+{
+color:lightblue; text-align:center
+}
+<!--- Universal --->
+*
+{
+color:purple; text-align:left
+}
+<!--- Attribute --->
+input[type="text"]
+{
+width: 300px;
+margin_bottom:10px;
+background_color:green;
+padding:10px
+}
+a[target="_blank"]
+{
+color:lightblue; 
+text-align:center
+text--tranform:Upper
+}
+input[type="button"]
+{
+margin:30px;
+background-color:pink;
+font-size:30px
+}
+<!--- Decendant --->
+div.d > p
+{
+color:violet;
+}
+</style>
+</head>
+<body>
+<p id="surf">
+Css using id
+</p>
+<p class="A">Css using class </p>
+<h4 class="A">all</h4>
+<h4>Universal </h4>
+<form name="input" action="" method="get">
+<input type="text" name="Name">
+<br> 
+<input type="button" value="submit">
+</form>
+<a href="#" target="#">
+link2
+</a>
+<!---<div class="d1">
+<p> Paragraph</p>
+<section>
+<p> internal paragraph</p>
+</section>
+</div>
+<p>Paragraph ot of div ,where the decndant will not be applied</p> --->
+<div class="d1">
+<p> Paragraph</p>
+<section>
+<p> internal paragraph</p>
+</section>
+</div>
+<p>Paragraph ot of div ,where the decndant will not be applied</p>
+</body>
+</html>

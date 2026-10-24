@@ -1,0 +1,46 @@
+<!--- Design a webpage that includes 
+1) A button that changes its color when hovered over and when clicked 
+2)a text input field that changes its bgcoor when it gains focus 
+3) An unordered list where a.the second list item is styled with red and bold font b. one of the list item as a class named special and all other list items have an aqua
+background and italic font style ---> 
+<html>
+<head>
+<style>
+button:active
+{
+color:blue;
+}
+button:hover
+{
+color:pink;
+}
+input:focus
+{
+background-color:blue;
+}
+ul li:not(.special)
+{
+font-style:italic;
+background-color:aqua
+}
+ul li:nth-child(2)
+{
+font-weight:bold;
+color:red
+}
+</style>
+</head>
+<body>
+
+<button type="submit name="button">Button</button> 
+<br>
+<label for="Name">Name:</label>
+<input type="text" name="Name" id="Name">
+<br>
+<ul>
+<li class="special">Aasiya</li>
+<li>Ayesha</li>
+<li>Gulnar</li>
+</ul>
+
+</body>
