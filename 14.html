@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{margin-top: 50px;height: 800px;border:1px solid blue;position: relative;}
+        .a{height: 100px;width: 100px;border:1px solid red;margin-left: 20px;}
+        .container1{margin-top: 50px;height: 800px;border:1px solid green}
+        #box1{background-color: tomato;position: static;top:20px}
+        #box2{background-color: aqua;position: relative;top:50px;left: 40px;z-index: 1;}
+        #box3{background-color: yellow;position: absolute;top:100px;right: 0px;}
+        #box4{background-color: pink;position: fixed;bottom:0px;right: 0px;}
+        #box5{background-color: blueviolet;position: sticky;top:20px}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a" id="box1">Box A</div>
+        <div class="a" id="box2">Box B</div>
+        <div class="a" id="box3">Box C</div>
+        <div class="a" id="box4">Box D</div>
+        <div class="a" id="box5">Box E</div>
+    </div>
+    <div class="container1">
+    </div>
+</body>
+</html>

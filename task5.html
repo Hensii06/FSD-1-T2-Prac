@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{height:100px;width: 100px;background-color: blue;transition: background-color 3s ease 0s,height 3s ease 3s,width 3s ease 6s,border-radius 3s ease 9s;}
+        .div:hover{background-color: aquamarine;height: 300px;width: 300px;border-radius: 50%;}
+        input{background-color: bisque;transition: height 2s ease 0s,width 2s ease 0s,background-color 2s ease 0s;height: 10px;width: 50px;}
+        input[type=text]:hover{height: 30px;width: 100px;background-color: orange;}
+        .a{height: 100px;width:100px;background-color: blueviolet;transition: background-color 10s ease 0s,border-radius 10s ease 0s,transform 10s ease 0s;}
+        .a:hover{background-color: aqua;border-radius: 50%;transform: rotate(10000deg);}
+        @keyframes animate{form{background-color: cyan;} to {background-color: yellow;}}
+        .abc{height: 200px;width: 200px;background-color:cyan;animation-name: animate;animation-duration: 2s;animation-delay: 0s;animation-timing-function: ease;animation-iteration-count: infinite;animation-direction: alternate-reverse;}
+        @keyframes animate1{0%{background-color: crimson;} 50%{background-color: yellow;} 100%{background-color: gray;} from{height: 200p;} to {height: 300px;}}
+        .abc1{height: 200px;width: 200px;background-color:crimson;animation-name: animate1;animation-duration: 2s;animation-delay: 0s;animation-timing-function: ease;animation-iteration-count: infinite;}
+    </style>
+</head>
+<body>
+    <form>
+        Uname:<input type="text" placeholder="Enter Name">
+    </form>
+    <div  class="div"></div>
+    <div class="a"></div>
+    <div class="abc"></div>
+    <div class="abc1"></div>
+</body>
+</html>

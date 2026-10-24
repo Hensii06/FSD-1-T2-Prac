@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{--h: 100px;--w: 100px;--br:50%;--c:red ,green ,yellow ,blue,red;}
+        @keyframes a1{from{transform:rotate(0deg) scale(1,1)} to{transform: rotate(1000deg) scale(2,2);}}
+        .a{background-image: conic-gradient(var(--c));animation: a1 3s ease infinite alternate;height: var(--h);width: var(--w);position: absolute;top:50%;left:50%;border-radius: var(--br);}
+        .a1{background-image: conic-gradient(var(--c));animation: a1 3s ease infinite alternate-reverse;height: var(--h);width: var(--w);position: absolute;top:50%;left:70%;border-radius: var(--br);}
+        .a2{background-image: conic-gradient(var(--c));animation: a1 3s ease infinite alternate-reverse;height: var(--h);width: var(--w);position: absolute;top:50%;left:30%;border-radius: var(--br);}
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="a1"></div>
+    <div class="a2"></div>
+</body>
+</html>

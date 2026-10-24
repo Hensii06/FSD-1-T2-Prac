@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{background-color: aqua;height: 100px;width:100px;transition-property:all;transition-duration: 5s;transition-delay: 1s;transition-timing-function: ease-in-out;}
+        .div:hover{height:500px;width: 500px;background-color: brown;}
+        .a{height: 100px;width: 100px;background-color: blue;transition: height 5s ease 0s,width 10s ease 5s,background-color 15s ease 10s,transform 5s ease 0s,border-radius 5s ease 0s}
+        .a:hover{height: 300px;width: 300px;background-color: blueviolet;transform:rotate(360deg) translate(200px) ;border-radius: 50%;}
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+    <div class="a"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{font-size: 30PX;color: red;}
+        p::first-line{text-transform: uppercase;}
+        p::before{content: "Hello";}
+        p::after{content: "Can't copy";}
+        ul li::selection{color:red}
+        ul li::marker{color: blueviolet;content: "$ ";}
+        *::selection{color: green;background-color: yellow;}
+    </style>
+</head>
+<body>
+    <p> Check Element effect <br> 
+        on me for two lines </p>
+    <ul>
+        <li>tea</li>
+        <li>coffe</li>
+        <li>milk</li>
+    </ul>
+</body>
+</html>
